@@ -1,5 +1,5 @@
 .color{
-    color: #e26956; 
+    color: #e26956 !important; 
 }
 
 .bg-color{
@@ -8,4 +8,14 @@
 
 a {
     font-family: "Arial", Times, serif;
-  }
+}
+
+a.color:hover,
+a.custom:hover {
+      color: #ff0000;
+}
+
+.custom {
+    color: black;
+}
+
